@@ -9,8 +9,8 @@ while password != "night":
     password = input("enter your password: ")
     if password != "night":
         print(f"you have {left} left")
-    if itter > 3:
-        print("you lock!")
+    if itter > 3 and password != "night":
+        print("YOU LOCK!")
         break
 else:
-    print("correct!")
+    print("CORRECT !")
